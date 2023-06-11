@@ -1,0 +1,59 @@
+:root {
+  --orange2: #EE7700;
+  --orange: #FAAB6B;
+  --darkorange: #ff8520;
+  --white: #fff;
+  --blue: #4F518C;
+  --darkblue: rgb(52, 29, 113);
+  --lightblue: #ACBFFA;
+  --lightestblue: #E2E9FF;
+  --green: #22AA61;
+  --darkgreen: #033b1d;
+  --gray: #838383;
+  --darkgray: #484848;
+  --lightgray: #D9D9D9;
+  --lightgray2: #DFE3E8;
+  --lightgray3: #F2F2F2;
+  --lightgray4: #BEBEBE;
+  --red: #D30000;
+  --lightred: #EE4444;
+}
+
+body {
+  background-color: var(--darkblue);
+  color: var(--white);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none;  /* Hide scrollbar for Firefox */
+}
+
+body, input, textarea, button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
