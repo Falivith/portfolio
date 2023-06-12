@@ -27,7 +27,6 @@ export function LinkContainer () {
                 <AiFillInstagram style = {{ fontSize: size + 'rem' }} 
                 className = { styles.icon }/>
             </a>
-            <h1 className = { styles.title }></h1>
         </div>
     )
 }

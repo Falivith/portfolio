@@ -1,21 +1,17 @@
 :root {
-  --BlackOlive: #000500;
-  --Mauveine: #362417;
-  --Purpureus: #92817a;
-  --Periwinkle: #f1dabf;
-  --MintGreen: #fffbff;
-
-  /* Black
-  Bistre
-  Cinereous
-  Almond
-  Snow
-  */
+  --Black: #000500;
+  --Marrom: #362417;
+  --Marrom_3: #cf974f;
+  --Marrom_2: #92817a;
+  --MarromClarinho: #f1dabf;
+  --Bege: #f5f5dc;
+  --Neve: #fffbff;
 }
 
 body {
   background-image: url(./assets/planks.jpg);
-  background-size: auto;
+  background-repeat: repeat;
+  background-size: 15%;
   color: var(--white);
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;

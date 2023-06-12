@@ -3,13 +3,13 @@
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
-    background-color: var(--Mauveine);
+    background-color: var(--Marrom);
     width: 100%;
     border-radius: 15px;
 }
 
 .icon{
-    color: var(--Purpureus);
+    color: var(--Marrom_2);
     transition: .2s;
 }
 
