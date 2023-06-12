@@ -1,0 +1,33 @@
+.profileSection{
+    padding: 20px;
+    display: flex;
+    width: 70%;
+    gap: 30px;
+    align-items: center;
+    background-color: var(--Mauveine);
+    border-radius: 25px;
+}
+
+.picContainer{
+    
+}
+
+.picture{
+    max-width: 150px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.textSection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.paragraph{
+    
+}
+
+.title{
+
+}

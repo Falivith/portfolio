@@ -1,4 +1,4 @@
-import styles from './LinkContainer.module.css'
+import styles from './LinkContainer.module.css';
 
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillFacebook } from 'react-icons/ai';
@@ -23,6 +23,7 @@ export function LinkContainer () {
             <a href = "https://www.instagram.com/gabriel_falivith/" target = "_blank">
                 <AiFillInstagram style = {{ fontSize: size + 'rem' }} />
             </a>
+            <h1 className = { styles.title }></h1>
         </div>
     )
 }

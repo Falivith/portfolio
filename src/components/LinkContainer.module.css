@@ -5,3 +5,7 @@
 .icon {
     display: flex;
 }
+
+.title {
+    font-size: 16px;
+}
