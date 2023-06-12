@@ -1,5 +1,5 @@
 import styles from "./Experience.module.css";
-import { Card } from "./Card";
+//import { Card } from "./Card";
 
 /*
 * 
