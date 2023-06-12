@@ -1,13 +1,14 @@
 :root {
-  --BlackOlive: #292e1e;
-  --Mauveine: #7f0799;
-  --Purpureus: #9649cb;
-  --Periwinkle: #afbbf2;
-  --MintGreen: #d3fff3;
+  --BlackOlive: #000500;
+  --Mauveine: #362417;
+  --Purpureus: #92817a;
+  --Periwinkle: #f1dabf;
+  --MintGreen: #fffbff;
 }
 
 body {
-  background-color: var(--darkblue);
+  background-image: url(./assets/planks.jpg);
+  background-size: auto;
   color: var(--white);
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
