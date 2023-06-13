@@ -1,0 +1,45 @@
+.cardContainer{
+    background-color: var(--Marrom_3);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cardContainer > div{
+    border-radius: 7px;
+    padding: 10px;
+    max-height: 40%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--MarromClarinho);
+    color: var(--Black);
+    text-align: center;
+}
+
+.companyPic{
+    width: 70px;
+}
+
+.title{
+    font-size: 1rem;
+}
+
+.date{
+
+}
+
+.description{
+
+}
+
+/*
+export function Card (props: CardProps) {
+    
+    return (
+        <div className = { styles.cardContainer }>
+            <h2>{props.title} </h2>
+            <span>{props.date}</span>
+            <p>{props.description}</p>
+        </div>
+    )
+}*/
