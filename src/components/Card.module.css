@@ -8,7 +8,7 @@
 .internalHeader{
     border-radius: 70.5px 13px 13px 70.5px;
     padding: 10px;
-    max-height: 40%;
+    max-height: 250px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -23,8 +23,21 @@
 }
 
 .description{
+    margin-top: 10px;
     text-align: justify;
+    text-indent: 15px;
+    font-size: 14px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 }
+
+.date{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    font-size: 14px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
 
 .titleContainer{
     display: flex;
@@ -40,19 +53,3 @@
     text-align: left;
     font-size: 13px;
 }
-
-/*
-export function Card (props: CardProps) {
-    return (
-        <div className = {styles.cardContainer}>
-            <div className = {styles.internalHeader}>
-                <img className = {styles.companyPic } src = {props.companyPic} alt = "Company Picture"/>
-                <h2 className = {styles.title }> {props.title}</h2>   
-            </div>
-            <div className = {styles.textSection}>
-                <p className = {styles.description}>{props.description}</p>
-                <span className = {styles.date}>{props.date}</span>    
-            </div>
-        </div>
-    )
-}*/
