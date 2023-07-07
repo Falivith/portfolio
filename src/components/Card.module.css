@@ -37,12 +37,30 @@
     height: 60px;
 }
 
+.textSection{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .description{
     text-align: justify;
     text-indent: 15px;
     font-size: 14px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     max-height: 140px;
+}
+
+.limiteLinhas{
+    margin-top: 10px;
+    text-align: justify;
+    text-indent: 15px;
+    font-size: 14px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+
+    max-height: 6rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .date{

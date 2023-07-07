@@ -1,6 +1,17 @@
 import styles from "./Card.module.css";
+import React, { useState } from "react";
 
 export function Card (props: CardProps) {
+
+    console.log(props.description.length)
+
+    const [expanded, setExpanded] = useState(false);
+
+    const toggleExpanded = (event: React.MouseEvent<HTMLAnchorElement>) => {
+        event.preventDefault();
+        setExpanded(!expanded);
+    }
+
     return (
         <div className = {styles.cardContainer}>
             <div className = {styles.internalHeader}>
@@ -13,7 +24,10 @@ export function Card (props: CardProps) {
                 </div>
             </div>
             <div className = {styles.textSection}>
-                <p className = {styles.description}>{props.description}</p>
+                <p className = {expanded? styles.description : styles.limiteLinhas}>{props.description}</p>
+                {!expanded && (<a href = "#" onClick = {toggleExpanded}>
+                    Ler Mais
+                </a>)}
                 <span className = {styles.date}>{props.date}</span>    
             </div>
         </div>
