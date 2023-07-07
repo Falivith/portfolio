@@ -4,7 +4,9 @@ export function Card (props: CardProps) {
     return (
         <div className = {styles.cardContainer}>
             <div className = {styles.internalHeader}>
-                <img className = {styles.companyPic } src = {props.companyPic} alt = "Company Picture"/>
+                <div className = {styles.companyPicContainer}>
+                    <img className = {styles.companyPic } src = {props.companyPic} alt = "Company Picture"/>
+                </div> 
                 <div className = {styles.titleContainer }>
                     <h2 className = {styles.title }> {props.title} </h2>   
                     <h3 className = {styles.title2 }> {props.title2} </h3>   

@@ -9,17 +9,14 @@
     gap: 10px;
 }
 
-.experienceSection > h2 {
-
-}
-
 .cardsContainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15px;
+    flex-direction: column;
+    gap: 20px;
 }
 
-@media (max-width: 600px){
+@media (max-width: 1150px){
     .cardsContainer{
         display: grid;
         grid-template-columns: 1fr;

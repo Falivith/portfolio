@@ -1,12 +1,10 @@
-import { CenterContainer } from "./components/CenterContainer"
-import { Header } from "./components/Header";
+import { MainPage } from "./pages/MainPage";
 
 export function App() {
 
   return (
     <>
-      <Header/>
-      <CenterContainer/>
+      <MainPage/>
     </>
   )
 }
